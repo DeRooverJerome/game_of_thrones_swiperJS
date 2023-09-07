@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Allan&family=Inter:wght@400;800&family=Raleway:wght@400;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Barre de Navigation ----------- */
+
+nav {
+  width: 100%;
+  height: 65px;
+  background: #313d46;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 120px 0 120px;
+}
+
+.mini-logo {
+  width: 151px;
+  height: 30px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  height: 100%;
+}
+
+a {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.77px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.home {
+  background-color: #007dfc;
+  width: 60px;
+  height: 30px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Première Section ------------------- */
+
+.section-up-container {
+  background: #232323;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.left-container {
+  margin-left: 120px;
+}
+
+h1 {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 65px;
+  font-weight: 800;
+  letter-spacing: 2.6px;
+  text-transform: uppercase;
+  margin-top: 143px;
+}
+
+span {
+  color: #ffb800;
+  font-family: Raleway;
+  font-size: 65px;
+  font-weight: 800;
+  letter-spacing: 2.6px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #007dfc;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 1.04px;
+  text-transform: capitalize;
+  margin-top: 22px;
+  margin-bottom: 23px;
+}
+
+hr {
+  width: 463px;
+  height: 2px;
+}
+
+p {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130.5%;
+  letter-spacing: 0.32px;
+}
+
+.text {
+  width: 387px;
+  height: 105px;
+  margin-top: 22px;
+}
+
+button {
+  height: 41px;
+  width: 141px;
+  border-radius: 45px;
+  background: #ffb800;
+  border: none;
+  margin-top: 23px;
+}
+
+button:hover {
+  background: #f3c655;
+  cursor: pointer;
+}
+
+h6 {
+  color: #000;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130.5%;
+  letter-spacing: 0.32px;
+}
+
+.right-container {
+  margin-right: 120px;
+}
+
+.logo {
+  height: 590px;
+  width: 590px;
+}
+
+/* Deuxieme Section ------------------- */
+
+.section-down {
+  overflow: hidden;
+}
+
+h3 {
+  color: #000;
+  font-family: Raleway;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 130.5%;
+  letter-spacing: 0.56px;
+  margin-left: 120px;
+  margin-top: 82px;
+}
+
+.hr-2 {
+  width: 145px;
+  height: 1px;
+  background: #000;
+  margin-left: 168px;
+  margin-bottom: 50px;
+}
+
+.images {
+  width: 100vw;
+  margin: 0 auto;
+  margin-bottom: 95px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 21px;
+  grid-row-gap: 21px;
+}
+
+.image-1 {
+  background: url(./assets/image\ 1.png) center/cover;
+  width: 387px;
+  height: 559px;
+  margin-left: 120px;
+  grid-area: 1 / 1 / 3 / 2;
+}
+.image-2 {
+  background: url(./assets/image\ 3.png) center/cover;
+  width: 386px;
+  height: 269px;
+  grid-area: 1 / 2 / 2 / 3;
+}
+.image-3 {
+  background: url(./assets/image\ 4.png) center/cover;
+  width: 386px;
+  height: 269px;
+  grid-area: 2 / 2 / 3 / 3;
+}
+.image-4 {
+  background: url(./assets/image\ 2.png) center/cover;
+  width: 386px;
+  height: 269px;
+  margin-right: 120px;
+  grid-area: 1 / 3 / 2 / 4;
+}
+.image-5 {
+  background: url(./assets/image\ 5.png) center/cover;
+  width: 386px;
+  height: 269px;
+  grid-area: 2 / 3 / 3 / 4;
+}
